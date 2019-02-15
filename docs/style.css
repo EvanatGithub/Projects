@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: #E0FFFF;
+}
+body{
+  text-align: relative;
+  overflow: scroll;
+  background-color: #E0FFFF;
+}
+#super{
+  position: relative;
+}
+.container{
+  position: relative;
+}
+.container h2{
+  background: none;
+  color: black;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: -200px;
+  bottom: 0;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0px auto;
+  height: 50px
+}
+h2{
+  padding-top: 65px;
+  font-size: 44px;
+}
+#top{
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#right{
+  position: relative;
+  padding-bottom: 40px;
+}
+#left{
+  position: absolute;
+  bottom: 0;
+
+}
+.badge{
+  bottom: 0;
+  position: absolute;
+}
+#Evan {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+#Resume{
+  left: 0;
+}
