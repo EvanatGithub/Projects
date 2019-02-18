@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Noticia+Text|Satisfy');
 *{
   padding: 0;
   margin: 0;
   background-color: #FFF5EE;
-  background-image: url("white-empty-canvas.jpg");
+  background-image: url("b6.jpg");
 
 }
 body{
@@ -32,8 +33,9 @@ body{
   height: 50px
 }
 h2{
-  padding-top: 85px;
-  font-size: 44px;
+  padding-top: 75px;
+  font-size: 64px;
+  font-family: 'Satisfy', cursive;
 }
 #top{
   margin-left: auto;
@@ -60,4 +62,56 @@ h2{
 }
 #Resume{
   left: 0;
+  font-size: 30px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+   float: left;
+   width: 29%;
+   background: transparent;
+   margin-left: 62px;
+   font-family: 'Noticia Text', serif;
+   font-size: 18px;
+}
+
+.column img{
+  border:5px double #15535c;
+  border-width:5px;
+  border-style:double;
+  border-color:#15535c;
+  /* -webkit-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+  background-color: #cde364;
+	border-top: 5px dashed #000;
+	border-bottom: 5px dashed #000;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+	box-shadow: inset 0 -2px 0 0 #000, inset 0 2px 0 0 #000, 0 2px 0 0 #000, 0 -2px 0 0 #000;
+	margin-bottom: 2px; */
+}
+/* Clear floats after image containers */
+.row {
+ content: "";
+ clear: both;
+ display: inline-block;
+ position: absolute;
+ top:0px;
+ vertical-align: middle;
+ background: transparent;
+ margin-top: 350px;
+}
+.caption{
+  background: transparent;
+}
+.contacts{
+  display: block;
+  top: 105px;
+  right: 125px;
+  position: absolute;
+  font-family: 'Noticia Text', serif;
+  font-size: 25px;
+}
+.email{
+
 }
