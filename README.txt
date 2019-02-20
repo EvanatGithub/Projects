@@ -6,3 +6,15 @@ https://stackoverflow.com/questions/1225130/how-can-i-align-text-directly-beneat
 https://ezgif.com/video-to-gif
 https://video.online-convert.com/convert-to-mp4
 Atom add-ons: 
+  atom-ternjs
+  autoclose-html
+  autocomplete-html-entities
+  autocomplete-modules
+  open-in-browsers
+  pigments
+  turbo-javascript
+  autocomplete-css
+  autocomplete-html
+  autocomplete-plus
+  
+  
