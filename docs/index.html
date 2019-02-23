@@ -8,9 +8,9 @@
   </head>
   <body>
     <div id = "super">
-      <div class="container">
+      <!-- <div class="container">
         <img id = "top" src="top.png" alt="" width="25%" height="25%"/>
-        <h2>Projects</h2>
+        
         <div style="text-align: right">
           <img id = "right" src="right.png" alt="" width="30%" height="30%" />
         </div>
@@ -18,10 +18,41 @@
         <div style="text-align: left">
           <img id = "left" src="left.png" alt="" width="50%" height="50%" />
         </div>
+      </div> -->
+      <h2 class="header">Projects</h2>
+      <div class="contacts">
+        <div class = "email">
+          <span class = "email">Email: ytl@ualberta.ca</span>
+        </div>
+        <div class = "phone">
+          <span class = "phone">Phone: +1 780-885-5216</span>
+        </div>
+        <div class = "git">
+          <a class = "git" href = "https://github.com/EvanatGithub">Github: https://github.com/EvanatGithub</a>
+        </div>
       </div>
-
-      <div class = "badge">
-          <a  target="_blank" id = "Resume" href="Evan_Resume_Feb_2019.pdf">->Resume!<-</a>
+    
+      <div class="row">
+        <figure class="column">
+          <img id = "pong" src="pong.gif" alt="sometext" width="100%"/>
+          <figcaption id = "pong" class="caption">1970's style Pong Game made with <b>Python</b> using the <b>Pygame module</b>.
+            This is a simple game that demonstrates some of the initial coding techniques and practices I learned when I first began coding.
+            These include working with lists, if/else statements, user defined methods and classes, etc.
+            It provided a good basis for learning and working with other languages.</figcaption>
+        </figure>
+        <figure class="column">
+          <img id = "sudoku" src="sudoku.gif" alt="sometext" width="100%"/>
+          <figcaption id = "sudoku" class="caption">Sudoku Solver made with <b>C</b> using a <b>recursive back-tracking algorithm</b>.
+          Recursive back-tracking is different from regular recursion as back-tracking means it searches all possibilities until it finds a correct solution (sodoku requirements in this case),
+          while recursion simply means the function calling itself until it reaches a base case. This program really highlights much of the knowledge
+          I have learned in programming thus far.</figcaption>
+        </figure>
+        <figure class="column">
+          <img id = "ex3" src="rps.gif" alt="sometext" width="100%"/>
+          <figcaption id = "ex3" class="caption">Rock Paper Scissors game I created when I first began web design. It comes from a youtube tutorial
+          great for beginners that demonstrates some basic web design methods and principles. The website is extremely simple yet extremely effective
+          for learning how to code in <b>HTML5, JavaScript, and CSS</b>. It also provided me with the knowledge to build this website!</figcaption>
+        </figure>
       </div>
 
       <div class = "self">
@@ -30,43 +61,19 @@
         a simple android app that tracks books you borrow and lend out to friends.</span>
       </div>
 
-      <span id = "Evan">This website was created with the power of HTML5/CSS/JavaScript.</span>
+
+      <div class="footer">
+        <div class = "badge">
+          <a  target="_blank" id = "Resume" href="Evan_Resume_Feb_2019.pdf">->Resume!<-</a>
+        </div>
+  
+        <span id = "Evan">This website was created with the power of HTML5/CSS/JavaScript.</span>
+      </div>
+
+      
     </div>
 
-    <div class="row">
-      <figure class="column">
-        <img id = "pong" src="pong.gif" alt="sometext" width="100%"/>
-        <figcaption id = "pong" class="caption">1970's style Pong Game made with <b>Python</b> using the <b>Pygame module</b>.
-          This is a simple game that demonstrates some of the initial coding techniques and practices I learned when I first began coding.
-          These include working with lists, if/else statements, user defined methods and classes, etc.
-          It provided a good basis for learning and working with other languages.</figcaption>
-      </figure>
-      <figure class="column">
-        <img id = "sudoku" src="sudoku.gif" alt="sometext" width="100%"/>
-        <figcaption id = "sudoku" class="caption">Sudoku Solver made with <b>C</b> using a <b>recursive back-tracking algorithm</b>.
-        Recursive back-tracking is different from regular recursion as back-tracking means it searches all possibilities until it finds a correct solution (sodoku requirements in this case),
-        while recursion simply means the function calling itself until it reaches a base case. This program really highlights much of the knowledge
-        I have learned in programming thus far.</figcaption>
-      </figure>
-      <figure class="column">
-        <img id = "ex3" src="rps.gif" alt="sometext" width="100%"/>
-        <figcaption id = "ex3" class="caption">Rock Paper Scissors game I created when I first began web design. It comes from a youtube tutorial
-        great for beginners that demonstrates some basic web design methods and principles. The website is extremely simple yet extremely effective
-        for learning how to code in <b>HTML5, JavaScript, and CSS</b>. It also provided me with the knowledge to build this website!</figcaption>
-      </figure>
-    </div>
-
-    <div class="contacts">
-      <div class = "email">
-        <span class = "email">Email: ytl@ualberta.ca</span>
-      </div>
-      <div class = "phone">
-        <span class = "phone">Phone: +1 780-885-5216</span>
-      </div>
-      <div class = "git">
-        <a class = "git" href = "https://github.com/EvanatGithub">Github: https://github.com/EvanatGithub</a>
-      </div>
-    </div>
+    
 
     <script src="app.js" charset="utf-8"></script>
   </body>
