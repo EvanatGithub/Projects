@@ -44,14 +44,14 @@ h2{
   margin-right: auto;
   top: 0;
 	display: block;
-  position: relative;
+  position: absolute;
 }
 #right{
-  position: relative;
+  position: absolute;
   padding-bottom: 40px;
 }
 #left{
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 0;
 }
